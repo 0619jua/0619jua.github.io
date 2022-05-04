@@ -672,7 +672,7 @@ progress {
           flex-shrink: 0;
   width: 100%;
   max-width: 100%;
-  padding-right: calc(var(--bs-gutter-x) * .5);
+  padding-right: calc(var(--bs-gutter-x) * 1.5);
   padding-left: calc(var(--bs-gutter-x) * .5);
   margin-top: var(--bs-gutter-y);
 }
@@ -1439,7 +1439,7 @@ progress {
   .col-lg-3 {
     -webkit-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 25%;
+    width: 75%;
   }
   .col-lg-4 {
     -webkit-flex: 0 0 auto;
@@ -1469,7 +1469,7 @@ progress {
   .col-lg-9 {
     -webkit-flex: 0 0 auto;
             flex: 0 0 auto;
-    width: 75%;
+    width: 25%;
   }
   .col-lg-10 {
     -webkit-flex: 0 0 auto;
@@ -10314,8 +10314,9 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 }
 
 .resume-header .name {
-  font-size: 2.25rem;
-  letter-spacing: 0.175rem;
+  /* font-size: 2.25rem; */
+  font-size: 2.55rem;
+  letter-spacing: 0.195rem;
   font-weight: 900;
 }
 

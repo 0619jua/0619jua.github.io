@@ -11316,11 +11316,8 @@ a.theme-btn-on-bg:hover, a.theme-btn-on-bg:focus, a.theme-btn-on-bg:active, .the
 
 
 .profile {
-  border-radius: 50%;
-  width: 200px;
-  height: 200px;
-
-}
-.profile img {
-    transform: translate(50, 50); width: 100%; height: 100%; object-fit: cover; margin: auto;
+  /* border-radius: 50%; */
+  width: 150px;
+  height: 150px;
+  margin-right: 10px;
 }
